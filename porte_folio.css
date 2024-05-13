@@ -6,7 +6,7 @@
 #picturecontainer {
     width: 100%;
     height: 160px;
-    background-image: url(/porte_folio_delay/image/banniere.jpeg);
+    background-image: url(/image/banniere.jpeg);
     background-size: cover;
     border-bottom: 5px solid honeydew;
     z-index: 1;
@@ -280,7 +280,7 @@ opacity: 0; /* Faire l'élément complètement transparent */
     display: none;
   }
   #picturecontainer{
-    background-image: url(image/banniereLW.jpeg);
+    background-image: url(/image/banniereLW.jpeg);
   }
   #buttonlist {
     display: flex;
