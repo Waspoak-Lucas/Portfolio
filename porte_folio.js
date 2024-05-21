@@ -16,6 +16,7 @@ var imagetopreload = ["/porte_folio_delay/image/banniere.jpeg", "/porte_folio_de
 var aPropos = document.getElementById('aPropos');
 var aProposText = document.getElementById('aProposText');
 var pictureContainer = document.getElementById('picturecontainer');
+var contactForm = document.getElementById('contactForm');
 
 /**
  * @returns "Au chargement de la page, remplie le background de chacun de mes hexagones"
@@ -221,6 +222,7 @@ if (buttons.length >= 3) {
         aProposText.style.display = 'none';
         Acceuil.style.display = 'none';
         AcceuilText.style.display = 'none';
+        contactForm.style.display = 'none';
         // Réinitialiser les compteurs globaux
         globalStartNonAnimatedCount = 0;
         globalEndNonAnimatedCount = 0;
@@ -243,6 +245,7 @@ if (buttons.length >= 3) {
         aProposText.style.display = 'flex';
         Acceuil.style.display = 'none';
         AcceuilText.style.display = 'none';
+        contactForm.style.display = 'none';
         // Réinitialiser les compteurs globaux si nécessaire
         globalStartNonAnimatedCount = 0;
         globalEndNonAnimatedCount = 0;
@@ -264,6 +267,7 @@ if (buttons.length >= 3) {
         aProposText.style.display = 'none';
         Acceuil.style.display = 'none';
         AcceuilText.style.display = 'none';
+        contactForm.style.display = 'flex';
         // Réinitialiser les compteurs globaux si nécessaire
         globalStartNonAnimatedCount = 0;
         globalEndNonAnimatedCount = 0;
@@ -310,6 +314,7 @@ document.addEventListener('DOMContentLoaded', function() {
         aProposText.style.display = 'none';
         Acceuil.style.display = 'flex';
         AcceuilText.style.display = 'flex';
+        contactForm.style.display = 'none';
         // Réinitialiser les compteurs globaux si nécessaire
         globalStartNonAnimatedCount = 0;
         globalEndNonAnimatedCount = 0;

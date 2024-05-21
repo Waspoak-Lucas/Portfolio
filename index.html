@@ -3,11 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lucaswpk</title>
     <link rel="stylesheet" href="porte_folio.css">
 
+    <link rel="apple-touch-icon" sizes="180x180" href=".//Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Favicon/favicon-16x16.png">
+    <link rel="manifest" href="/Favicon/site.webmanifest">
+    <link rel="mask-icon" href="/Favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
 </head>
-<body>
+<body id="premier">
     <header>
       <div id="picturecontainer">
         <div id="buttonlist">
@@ -95,6 +104,28 @@
         J’aime le footing et le sport en général, lire et écrire. Je suis l’auteur d’un essai et un roman qui est le premier tome d’une trilogie.
         Voici un lien vers la plateforme où je vends mon livre. Vous y trouverez toutes les informations le concernant 😉.
         </p>
+        <body>
+          <form id="contactForm" action="formulaire.php" method="POST">
+            <div class="form-row">
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-row">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-row">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            
+            <button type="submit" id="formulaire">Send</button>
+          </form>
+        
+        </body>
+        
       <div id="hex-container4"></div>
       <div id="hex-container5"></div>
       <div id="hex-container6"></div>

@@ -12,8 +12,64 @@
     z-index: 1;
     position: relative;
     display : flex;
-    
 }
+form {
+  background: rgba(255, 230, 255, 1);
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  font-family: morena;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  position: relative; /* Allow positioning within form rows */
+}
+
+label {
+  margin-right: 8px;
+  flex: 0 0 auto;
+  width: 80px;
+}
+
+input {
+  flex: 1;
+  padding: 4px;
+  border: 1px solid #ccc;
+  width: 150px;
+}
+
+textarea {
+  width: calc(100% - 16px); /* Adjust for padding */
+  padding: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  height: 60px;
+}
+
+#formulaire {
+  padding: 6px;
+  background-color: #3E2723;
+  color: #FFF8DC;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  align-self: flex-end;
+  font-family: morena;
+}
+
+/* #formulaire:hover {
+  background-color: #2C222B;
+} */
 
 body, html{
 
@@ -314,7 +370,7 @@ opacity: 0; /* Faire l'élément complètement transparent */
     background-position: center;
     background-size: 30px; /* ou 'contain' selon le besoin */
     background-image: url(image/project-management.png);
-    background-color: honeydew;
+    background-color: #FFF8DC;
   }
   #button2{
     margin-left: 30px;
@@ -322,7 +378,7 @@ opacity: 0; /* Faire l'élément complètement transparent */
     background-position: center;
     background-size: 30px; /* ou 'contain' selon le besoin */
     background-image: url(image/information.png);
-    background-color: honeydew;
+    background-color: #FFF8DC;
   }
   #button3{
     margin-left: 30px;
@@ -330,7 +386,7 @@ opacity: 0; /* Faire l'élément complètement transparent */
     background-position: center;
     background-size: 30px; /* ou 'contain' selon le besoin */
     background-image: url(image/informations-de-contact.png);
-    background-color: honeydew;
+    background-color: #FFF8DC;
   }
 }
 @media (max-width: 480px) {
